@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(238, 146, 9);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #ffff;
+    font-size: 7em;
+    text-transform: uppercase;
+    transform: translatey(73%) translatex(3%)
+    
+}
+h2 {
+    font-size: 4.5em;
+transform: translatey(-100%)
+}
+h3 {
+    text-align: left;
+    transform: translatey(-43%) translatex(-21%)
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+h5 {
+    margin: 15px;
+
+}
+header {
+    padding: 36px 0 0 0;
+    background: #000208;
+    text-align: center;
+}
+@media (min-width : 750px) {
+    header {
+        text-align: center;
+    }
+}
+.borrar-platilo {
+    background-color: #fbaf32;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+.encabezado {
+    margin: 30px 0;
+    color:white;
+}
+.submenu {
+    position:relative;
+    transform: translatey(-635%) translatex(200%)
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color:white;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    z-index: 1;
+    background: #17181b;
+    padding: 15px;
+}
+.vacio {
+    padding: 20px;
+    background-color:#fbaf32;
+    text-align: center;
+    border-radius: 20px;
+    color:white;
+}
+.button {
+    background-color: #fbaf32;
+    color:rgb(255, 255, 255);
+}
+.contenido-hero {
+    margin-top: 80px;
+    color:white;
+}
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+.barra {
+    padding: 70px 0;
+    background: #1d2124;
+    transform: translatey(-65%)
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+.icono1{
+    background-image: url(../img/icono1.png);
+}
+.icono2{
+    background-image: url(../img/icono2.png);
+}
+.icono3{
+    background-image: url(../img/icono3.png);
+}   
+#lista-platillos .row{
+    margin-bottom: 40px;
+}
+.agregar-carrito{
+    margin: 12px 0;
+}
+.card {
+    text-align: center;
+    border: 25px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 0px 20px;
+    color: white;
+}
+.infocard p,
+.card h4 {
+    margin-bottom: 25px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer {
+    margin-top: 50px;
+    padding-top: 35px;
+    background: #000208;
+}
+.footer .menu a {
+    display:block;
+    margin-bottom: 28px;
+    text-decoration: none;
+}
